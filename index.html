@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>dashboard-v1</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=notifications" />
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=favorite" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=download" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=share" /> -->
 </head>
 <body>
     <div class="container">
@@ -13,39 +17,58 @@
             <input type="search">
         </div>
             <div class="left-bottom">
-                <p>Profile Pic big</p>
-                <p>Welcome Message</p>
+                <img src="./eric.jpg" alt="the man" height="80px">
+                <div class="intro">
+                    <p>Good Morning, Eric. What are you thinking today?</p>
+                    <br>
+                    <p style="font-weight: bold;">Eric Ravilious (@RavEr)</p>
+                </div>
             </div>
         <div class="right-top">
-            <p>Bell</p>
-            <p>profile pic</p>
-            <p>Profile Name</p>
+            <button class="notifications">
+                <span class="material-symbols-outlined">
+                    notifications
+                    </span>
+            </button>
+            <img src="./eric.jpg" alt="the man" height="50px">
+            <p style="font-weight: bold;">Eric Ravilious</p>
         </div>
             <div class="right-bottom">
-                    <p>New</p>
-                    <p>Upload</p>
-                    <p>Share</p>
+                <button>New</button>
+                <button>Upload</button>
+                <button>Share</button>
                 </div>
         </div>
         <div class="sidebar">
-            <ul class="sidebar-links">
-                <li>SVG Dashboard</li>
+            <div class="sidebar-links">
+                <a href="">SVG Dashboard</a>
                 <br>
-                <li>Home</li>
-                <li>Profile</li>
-                <li>Messages</li>
-                <li>History</li>
-                <li>Tasks</li>
-                <li>Communities</li>
+                <a href="">Home</a>
+                <a href="">Profile</a>
+                <a href="">Messages</a>
+                <a href="">History</a>
+                <a href="">Tasks</a>
+                <a href="">Communities</a>
                 <br>
-                <li>Settings</li>
-                <li>Support</li>
-                <li>Privacy</li>
-            </ul>
+                <a href="">Settings</a>
+                <a href="">Support</a>
+                <a href="">Privacy</a>
+            </div>
         </div>
+        <p>Trending??</p>
         <div class="content">
             <div class="cards">ONE
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste officiis dolorem/p>
+                <!-- <div class="symbols"> -->
+                    <span class="material-symbols-outlined">
+                        favorite
+                        </span>
+                        <!-- <span class="material-symbols-outlined">
+                            download
+                            </span> -->
+                            <span class="material-symbols-outlined">
+                                share
+                                </span>
+                <!-- </div> -->
             </div>
             <div class="cards">TWO</div>
             <div class="cards">THREE</div>
@@ -67,7 +90,9 @@
         </div>
         
             <div class="extra-top"></div>
-            <div class="extra-bottom"></div>
+            <div class="extra-bottom">
+                <!-- <a class="twitter-timeline" href="https://twitter.com/Ravilious1942?ref_src=twsrc%5Etfw">Tweets by Ravilious1942</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
+            </div>
         
     </div>
 </body>
